@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './Header.css'
+import Header from './Header';
 
 function App()
 {
@@ -8,7 +9,7 @@ function App()
     <div className='wrapper'>
       <div className="head">
         <div className="container">
-
+          <Header />
         </div>
       </div>
     </div>
