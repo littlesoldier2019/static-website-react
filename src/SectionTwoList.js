@@ -1,6 +1,6 @@
 import React from 'react';
 import SectionTwoItem from "./SectionTwoItem";
-
+import './SectionTwoList.css';
 const SectionTwoList = () => {
     return (
         <div className="container_first">
