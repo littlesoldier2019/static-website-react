@@ -1,5 +1,4 @@
-}
-.testimonials{
+.testimonials {
     height: 100%;
     width: 66%; 
     background-position: left;
@@ -8,13 +7,13 @@
 }
 
 .testimonials--left{
-    background-image:url("../image/Border-BG.jpg");
+    background-image:url("./image/Border-BG.jpg");
     width: 40%;
     background-size: 13%;
 }
 
 .testimonials--right{
-    background-image:url("../image/Border-BG.jpg");
+    background-image:url("./image/Border-BG.jpg");
     width: 37%;
     background-size: 13%;
 
@@ -30,14 +29,14 @@
 }
 
 .development--left{
-    background-image:url("../image/Border-BG.jpg");
+    background-image:url("./image/Border-BG.jpg");
     width: 27%;
     background-size: 38%;
     height: 100%;
 }
 
 .developmnent--right{
-    background-image:url("../image/Border-BG.jpg");
+    background-image:url("./image/Border-BG.jpg");
     width: 31%;
     background-size: 27%;
     height: 100%;
