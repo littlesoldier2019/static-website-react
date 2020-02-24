@@ -1,0 +1,45 @@
+}
+.testimonials{
+    height: 100%;
+    width: 66%; 
+    background-position: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials--left{
+    background-image:url("../image/Border-BG.jpg");
+    width: 40%;
+    background-size: 13%;
+}
+
+.testimonials--right{
+    background-image:url("../image/Border-BG.jpg");
+    width: 37%;
+    background-size: 13%;
+
+}
+
+.developmnent{
+    height: 100%;
+    background-repeat: repeat-x;
+    background-position: left;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.development--left{
+    background-image:url("../image/Border-BG.jpg");
+    width: 27%;
+    background-size: 38%;
+    height: 100%;
+}
+
+.developmnent--right{
+    background-image:url("../image/Border-BG.jpg");
+    width: 31%;
+    background-size: 27%;
+    height: 100%;
+
+}

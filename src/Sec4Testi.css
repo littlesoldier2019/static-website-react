@@ -1,0 +1,32 @@
+.container_third{
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 0px 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_third--testimonials{
+    width: 66%;
+}
+
+.first_section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    line-height: 1.8rem;
+    text-align: left;  
+    padding: 0px 15px 60px 0px;
+   
+}
+
+.second_section{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    line-height: 1.8rem;
+    text-align: left;  
+    padding: 10px 15px 0px 0px;
+}
