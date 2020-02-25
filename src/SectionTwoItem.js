@@ -10,8 +10,8 @@ const SectionTwoItem = (props) => {
                 </li>
 
                 <li className="container_first_suberfly--headtext">
-                    <h2>
-                        <span className="bold">{props.titleOne}</span>   <span className="normal">{props.titleTwo}</span>
+                    <h2 className="container_first--h2-title">
+                        <span className="bold">{props.titleOne}</span><span className="normal">{props.titleTwo}</span>
                     </h2>
                 </li>
 
@@ -19,8 +19,8 @@ const SectionTwoItem = (props) => {
                     <span className="normal">Lorem ipsum dolor sit
                                                         amet consectetur adipisicing elit. Adipisci magni tenetur nobis
                                                         velit quasi sequi quod. Praesentium iure repellendus corrupti ab
-                                                        unde, aliquam possimus similique esse. Incidunt inventore
-                                                        similique eveniet.</span></li>
+                                                        unde, aliquam possimus similique esse.
+                                                        </span></li>
 
                 <button className="btn_leanmore"> LEARN MORE</button>
             </ul>
