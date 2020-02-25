@@ -1,0 +1,39 @@
+.container_third--text{
+    margin: 15px;
+    padding: 0px 10px 10px;
+}
+   
+.container_third--blog{ 
+    padding: 0px 20px;
+    margin: 15px;
+ 
+} 
+
+.container_third_item{
+    position: relative;
+    width: 48.5%;
+    background-color: white;
+    line-height: 1.8rem;
+    text-align: left;  
+    padding: 20px;
+}
+
+
+.container_third_item::after {
+    content: "";
+    position: absolute;
+    margin-left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 66px solid  white;
+    border-right: 66px solid transparent;
+}
+
+ul.container_third_itemd{
+    width: 100%;
+    background-color: white;
+    line-height: 1.8rem;
+    list-style: none;   
+    text-align: left;  
+    padding-top: 10px;
+}
