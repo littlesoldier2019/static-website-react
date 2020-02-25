@@ -22,7 +22,7 @@
     background-color: white;   
 }
 
-ul.container_third_itemd{
+.container_third_itemd{
     width: 100%;
     background-color: white;
     line-height: 1.8rem;
@@ -45,15 +45,33 @@ ul.container_third_itemd{
 }
 
 /*Taken from inline style*/
-.link-style {
+.btn {
     text-decoration: none; 
-    background-color: rgb(189, 183, 183);
+    border: none;
+    background-color: white;
 }
+
+.btn:active,
+.btn:hover {
+    text-decoration: none; 
+    border: none;
+}
+
+.design-btn:hover,
+.product-btn:hover {
+    background-color: rgb(218, 213, 213);
+}
+
+.design-btn:active,
+.product-btn:active {
+    background-color: white;
+}
+
 
 .readmore_btn{
     position: absolute;
-    right: 8%;
-    bottom: 1%;
+    right: 10%;
+    bottom: 5%;
     background-color: rgb(45, 22, 175);
     border: none;
     color: white;
