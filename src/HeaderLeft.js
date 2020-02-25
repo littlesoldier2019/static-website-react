@@ -1,5 +1,5 @@
 import React from 'react'
-import imgLeft from './img/Header-img.png'
+import imgLeft from './image/Header-img.png'
 
 const HeaderLeft = () =>
 {

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Twitter from "./../image/twitter.png";
-import Facebook from "./../image/facebook.png";
-import Linkedin from "./../image/linkedin.png";
-import Github from "./../image/github (1).png";
-import Pinterest from "./../image/pinterest.png";
-import Vimeo from "./../image/vimeo (2).png";
-import Arrow from "./../image/arrow.png";
+import Twitter from "../image/twitter.png";
+import Facebook from "../image/facebook.png";
+import Linkedin from "../image/linkedin.png";
+import Github from "../image/github (1).png";
+import Pinterest from "../image/pinterest.png";
+import Vimeo from "../image/vimeo (2).png";
+import Arrow from "../image/arrow.png";
 
 export class Footer extends Component {
   render() {

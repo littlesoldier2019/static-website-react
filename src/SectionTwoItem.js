@@ -11,8 +11,7 @@ const SectionTwoItem = (props) => {
 
                 <li className="container_first_suberfly--headtext">
                     <h2>
-                        <span className="bold">{props.titleOne}</span>
-                        <span className="normal">{props.titleTwo}</span>
+                        <span className="bold">{props.titleOne}</span>   <span className="normal">{props.titleTwo}</span>
                     </h2>
                 </li>
 

@@ -101,7 +101,7 @@
 
  .header_banner{
     height: 12px;
-    background-image: url("./img/Border-BG.jpg"), url("./img/Border-BG.jpg");
+    background-image: url("./image/Border-BG.jpg"), url("./image/Border-BG.jpg");
     background-repeat: repeat-x;
     background-size: 4%;
  }

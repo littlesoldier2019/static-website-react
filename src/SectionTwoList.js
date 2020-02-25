@@ -1,10 +1,10 @@
 import React from 'react';
 import SectionTwoItem from "./SectionTwoItem";
 import './SectionTwoList.css';
-import smartphone from '../src/assets/smartphone.png';
-import monitor from '../src/assets/monitor.jpg';
-import laptop from '../src/assets/laptop.jpg';
-import recycle from '../src/assets/recycle.png';
+import smartphone from '../src/image/smartphone.png';
+import monitor from '../src/image/monitor.jpg';
+import laptop from '../src/image/laptop.jpg';
+import recycle from '../src/image/recycle.png';
 
 const SectionTwoList = () => {
     return (
