@@ -1,0 +1,28 @@
+.recent_banner {
+  max-width: 100%;
+  height: 13px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 0px 100px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.recent_banner--left {
+  height: 100%;
+  width: 43%;
+  background-image: url("./image/Border-BG.jpg");
+  background-repeat: repeat-x;
+  background-size: 10%;
+
+}
+
+.recent_banner--right {
+  height: 100%;
+  background-image: url("./image/Border-BG.jpg");
+  background-repeat: repeat-x;
+  background-size: 10%;
+  width: 40%;
+}
