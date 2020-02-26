@@ -6,11 +6,14 @@ import HeaderDownAfter from './HeaderDownAfter'
 const HeaderDown = () =>
 {
     return (
+
         <div className='header__down'>
             <HeaderDownText />
             <HeaderBtn />
             <HeaderDownAfter />
+        
         </div>
+
     )
 
 }

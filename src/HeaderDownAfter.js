@@ -5,9 +5,9 @@ export default class HeaderDownAfter extends Component
     render()
     {
         return (
-            <div >
-                <div className="header_banner"></div>
-            </div>
+        
+            <div className="header_banner"></div>
+            
         )
     }
 }

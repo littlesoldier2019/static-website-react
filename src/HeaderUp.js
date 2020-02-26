@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderLeft from './HeaderLeft'
 import HeaderRight from './HeaderRight'
+import HeaderDown from './HeaderDown';
 
 const HeaderUp = () =>
 {

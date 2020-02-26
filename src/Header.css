@@ -1,7 +1,7 @@
 .header{
     width: 100%;
-    padding: 0px 100px;
-    background-color: 000;  
+    /* padding: 0px 100px; */
+    background-color: #312E2E;  
     position: relative;
 }
 
@@ -42,18 +42,27 @@
     color:rgb(184, 173, 173);
 }
 
+.header_banner {
+    height: 12px;
+    background-image: url(./image/Border-BG.jpg), url(./image/Border-BG.jpg);
+    background-repeat: repeat-x;
+    background-size: 4%;
+}
+
 .header__down{
     display: flex;
     justify-content: space-between;
     background-color: rgb(45, 22, 175);
     position: relative;
-    margin: 0px 2px;
+    padding: 0 100px;
+    margin: 0 100px;
     color: white;
 }
 .header__down::after {
     content: "";
     position: absolute;
     top: 68px;
+    left: 0;
     width: 0;
     height: 0;
     border-top: 50px solid  rgb(45, 22, 175);
