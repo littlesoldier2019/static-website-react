@@ -2,26 +2,6 @@ import React from 'react';
 import './Develop.css';
 
 
-function DesignTab(props) {
-       return (
-        <button className='btn design-btn'onClick={props.handleClicked}>
-                <div className='design'>
-                <h3><span className="normal">DESIGN</span></h3>
-                </div>
-        </button>
-       ) 
-}
-
-function ProductTab(props) {
-        return (
-         <button className='btn product-btn' onClick={props.handleClicked}>
-                 <div className='production'>
-                 <h3><span className="normal">PRODUCTION</span></h3>
-                 </div>
-         </button>
-        ) 
- }
-
 function DesignText(props) {
         
         return (
@@ -111,48 +91,5 @@ class Develop extends React.Component {
         }
 }
 
-// const Develop = () => {
-//     return (
-//         <div className="container_third--development">
-//                 <div className="container_third_development--nav">
-//                         <button className='link-style'>
-//                                 <div className="design">
-//                                         <h3><span className="normal">DESIGN</span></h3>
-//                                 </div>
-//                         </button>
-
-//                         <button className='link-style'>
-//                                 <div className="production">
-//                                         <h3><span className="normal">PRODUCTION</span></h3>
-//                                 </div>
-//                         </button>
-//                 </div>
-
-//                 <div className="container_third_itemd">
-
-//                         <div className="container_second--text"> 
-//                                 <h2><span class="normal">Design</span></h2>
-//                                 <p className="normal">Lorem ipsum dolor sit
-//                                 amet consectetur adipisicing elit. Adipisci magni tenetur nobis
-//                                 velit quasi sequi quod. Praesentium iure repellendus corrupti ab
-//                                 unde, aliquam possimus similique esse. Incidunt inventore
-//                                 similique eveniet.</p>
-//                         </div>
-//                         <div className="container_second--text"> 
-//                                 <h2><span class="normal">Production</span></h2>
-//                                 <p className="normal">Lorem ipsum dolor sit
-//                                 amet consectetur adipisicing elit. Adipisci magni tenetur nobis
-//                                 velit quasi sequi quod. Praesentium iure repellendus corrupti ab
-//                                 unde, aliquam possimus similique esse. Incidunt inventore
-//                                 similique eveniet.</p>
-//                         </div>
-                        
-//                 </div>
-
-//                 <button className="readmore_btn"> READ MORE </button>
-
-//         </div>
-//     )
-// }
 
 export default Develop;
