@@ -4,7 +4,7 @@ Reactjs design mockup
 
 A design mockup website in react.
 
-Built by: 
+Team: <br /> 
 Anna Riazantseva - https://github.com/anyariazantceva <br />
 Oby Manyando - https://github.com/obymanyando <br />
 Nguyen Hong Ngoc - https://github.com/littlesoldier2019 <br />
